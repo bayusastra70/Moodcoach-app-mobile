@@ -13,3 +13,49 @@ MoodCoach is a Flutter-based mobile application designed to help users monitor t
 🏃 Activity Tracker: Users can log daily activities they perform to monitor lifestyle habits.
 
 🎨 User-Friendly UI: Intuitive and clean interface for seamless navigation.
+
+## Screenshots
+
+### Login
+
+<p align="center">
+  <img src="./screenshots/login.png" width="150px">
+</p>
+
+<br>
+
+
+### Home Page
+
+<p align="center">
+  <img src="./screenshots/homepage.png" width="150px">
+</p>
+
+<br>
+
+### Dailychekin
+
+<p align="center">
+  <img src="./screenshots/dailychekin.png" width="150px">
+</p>
+
+<br>
+
+### Profile
+
+<p align="center">
+  <img src="./screenshots/profile.png" width="150px">
+</p>
+
+<br>
+
+### Write jurnal
+
+<p align="center">
+  <img src="./screenshots/writejurnal.png" width="150px">
+</p>
+
+<br>
+
+
+
