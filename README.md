@@ -1,18 +1,38 @@
-🧠 MoodCoach Mobile App
+# 🧠 MoodCoach — AI-Powered Mental Well-being Assistant
 
-MoodCoach is a Flutter-based mobile application designed to help users monitor their daily mood, reflect through journaling, and receive personalized activity recommendations to improve mental well-being. The app leverages AI BiLSTM + Attention to provide accurate mood assessments and actionable suggestions.
+MoodCoach is a high-performance Flutter mobile application designed to bridge the gap between emotional tracking and actionable mental health insights. By leveraging deep learning models (**BiLSTM + Attention**), it provides users with precise mood assessments and personalized behavioral recommendations.
 
-📌 Key Features
+---
 
-📝 Mood Tracking & Journal: Quickly record your daily mood and write personal reflections in a mood journal.
+## 🚀 Key Value Propositions
 
-🤖 AI Mood Prediction: Advanced BiLSTM + Attention model predicts and analyzes your mood for higher accuracy.
+* **🤖 Advanced AI Core:** Utilizes a BiLSTM (Bidirectional Long Short-Term Memory) architecture with an **Attention Mechanism** to analyze journal sentiments with higher contextual accuracy than standard NLP models.
+* **📝 Cognitive Reflective Journaling:** Beyond just "tracking," it encourages deep reflection which the AI uses to trigger personalized activity suggestions.
+* **📊 Behavioral Feedback Loop:** Integrated activity tracker to correlate daily habits with emotional trends.
+* **🎨 Premium DX/UX:** Built with Flutter for a seamless 60fps experience across iOS and Android with a clean, minimalist design system.
 
-💡 Activity Recommendations: After submitting mood/journal, the app suggests personalized activities to enhance well-being.
+---
 
-🏃 Activity Tracker: Users can log daily activities they perform to monitor lifestyle habits.
+## 🛠️ Tech Stack
 
-🎨 User-Friendly UI: Intuitive and clean interface for seamless navigation.
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | Flutter, Dart |
+| **State Management** | Provider / Bloc (sesuaikan dengan yang kamu pakai) |
+| **AI/ML Model** | Python, TensorFlow/Keras (BiLSTM + Attention) |
+| **Database** | Firebase / SQLite (sesuaikan) |
+| **API/Backend** | FastAPI / Node.js (sesuaikan) |
+
+---
+
+
+## 🧠 Model Architecture & Logic
+
+The app doesn't just look for keywords. The **BiLSTM + Attention** model:
+1.  **BiLSTM:** Processes the journal text in both forward and backward directions to capture full context.
+2.  **Attention Layer:** Identifies specific "emotional triggers" within long journal entries that carry the most weight in determining mood.
+
+---
 
 ## Screenshots
 
